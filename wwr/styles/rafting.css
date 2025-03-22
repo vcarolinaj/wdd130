@@ -1,0 +1,33 @@
+:root {
+    --primary-color: #f0f4ef;
+    --secondary-color: #b4cded;
+    --accent1-color: #344966;
+    --accent2-color: #0d1821;
+
+    }
+
+    
+    h1 {
+        color: var(--accent2-color);
+    }
+    
+    p {
+        color: var(--accent1-color);
+    }
+    
+   a {
+        text-decoration: none;
+    }
+
+    .hero img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    .socialmedia img{
+        display: block;
+        width: 5%;
+        height: auto;
+        padding: 0.5rem;
+    }

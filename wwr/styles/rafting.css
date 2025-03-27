@@ -4,40 +4,52 @@
     --accent1-color: #344966;
     --accent2-color: #0d1821;
 
-    }
+}
 
-    div{
-        position: relative;
-    }
+.hero div {
+    position: relative;
+}
 
-    .hero h1 {
-        color: var(--accent2-color);
-        position: absolute;
-    }
-    
-    .hero article {
-        position: absolute;
-    }
+.hero h1 {
+    color: var(--accent2-color);
+    position: absolute;
+    background-color: aliceblue;
+}
 
-    p {
-        color: var(--accent1-color);
-    }
-    
-   a {
-        text-decoration: none;
-    }
+.hero article {
+    position: absolute;
+}
 
-    .hero img {
-        display: block;
-        width: 100%;
-        height: auto;
-        float: right;
-    }
+.hero p {
+    color: var(--accent1-color);
+    position: absolute;
+    margin: 200px;
+}
 
-    .socialmedia img{
-        display: block;
-        width: 3%;
-        height: auto;
-        padding: 0.5rem;
-        float: left;
-    }
+a {
+    text-decoration: none;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+    float: right;
+}
+
+.hero article img {
+    display: block;
+    width: 20%;
+    float: right;
+    padding: 250px;
+    background-color: aliceblue;
+    margin: 12px;
+}
+
+.socialmedia img {
+    display: block;
+    width: 3%;
+    height: auto;
+    padding: 0.5rem;
+    float: left;
+}

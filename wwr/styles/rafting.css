@@ -6,11 +6,19 @@
 
     }
 
-    
-    h1 {
+    div{
+        position: relative;
+    }
+
+    .hero h1 {
         color: var(--accent2-color);
+        position: absolute;
     }
     
+    .hero article {
+        position: absolute;
+    }
+
     p {
         color: var(--accent1-color);
     }
@@ -23,6 +31,7 @@
         display: block;
         width: 100%;
         height: auto;
+        float: right;
     }
 
     .socialmedia img{
